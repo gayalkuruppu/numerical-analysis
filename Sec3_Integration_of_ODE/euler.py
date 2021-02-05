@@ -25,7 +25,7 @@ N = (upper_bound - lower_bound)/step_size_h
 i = lower_bound
 count = 1
 
-while i<=upper_bound:
+while i<upper_bound:
     i = float("{:.10f}".format(i))
     n = count - 1
     print("\ny_%i = y_%i + hf(t_%i,y_%i)" %(n+1,n,n,n))
