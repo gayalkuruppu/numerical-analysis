@@ -14,7 +14,9 @@ step_size_h = 0.2
 
 def Dy(t,y):
     ##Enter the function of y'(t,y) here
-    return y - (t**2) + 1
+    function = y - (t**2) + 1
+    
+    return float("{:.10f}".format(function))
 
 
 ##Don't change anything below this line##
