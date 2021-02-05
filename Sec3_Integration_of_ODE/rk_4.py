@@ -21,7 +21,7 @@ def Dy(t,y):
 ###########################################################################################
 
 ##Don't change anything below this line##
-print("========== RK2 (Mid Point) Method ==========")
+print("========== RK4 Method ==========")
 
 print("\nk_1 = hf(x_n,y_n)"
       "\nk_2 = hf(x_n + h/2, y_n + k_1/2)"
