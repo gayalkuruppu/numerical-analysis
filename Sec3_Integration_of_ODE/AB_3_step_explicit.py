@@ -95,9 +95,8 @@ for j in range(2):
     count += 1
 
 print("\n========== Finding w_i for i=2,3,.. ==========")
-i -= step_size_h
 count -= 1
-while i<upper_bound - step_size_h:
+while i<upper_bound:
     i = float("{:.10f}".format(i))
     i_1 = float("{:.10f}".format(i-(step_size_h)))
     i_2 = float("{:.10f}".format(i-(2*step_size_h)))
