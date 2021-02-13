@@ -116,7 +116,7 @@ while i<upper_bound:
           str(array[-1]) + " + " + str(step_size_h) + "(" +
           str(55*Dy(i,array[-1])) + " - " + str(59*Dy(i_1,array[-2])) +
           " + " + str(37*Dy(i_2,array[-3])) + " - " +
-          str(9*Dy(i_3,array[-4])) + ") = " + str(wi_1))
+          str(9*Dy(i_3,array[-4])) + ")/24 = " + str(wi_1))
 
     array.append(wi_1)
     i += step_size_h
