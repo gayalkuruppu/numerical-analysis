@@ -105,14 +105,14 @@ while i<upper_bound:
                                                             + (5*Dy(i_2,array[-3])))/12)))
 
     print("\nw_" + str(count+1) + " = " +
-          str(array[-1]) + " + " + "{:.10f}".format(step_size_h/12) + "[23f(" +
+          str(array[-1]) + " + " + "{:.10f}".format(step_size_h) + "[23f(" +
           str(i) + ", " + str(array[-1]) + ") - 16f(" +
           str(i_1) + ", " + str(array[-2]) + ") +5f(" +
-          str(i_2) + ", " + str(array[-3]) + ")]")
+          str(i_2) + ", " + str(array[-3]) + ")/12]")
     print("w_" + str(count+1) + " = " +
-          str(array[-1]) + " + " + "{:.10f}".format(step_size_h/12) + "(" +
+          str(array[-1]) + " + " + "{:.10f}".format(step_size_h) + "(" +
           str(23*Dy(i,array[-1])) + " - " + str(16*Dy(i_1,array[-2])) +
-          " + " + str(5*Dy(i_2,array[-3])) + ") = " + str(wi_1))
+          " + " + str(5*Dy(i_2,array[-3])) + ")/12 = " + str(wi_1))
 
     array.append(wi_1)
     i += step_size_h
