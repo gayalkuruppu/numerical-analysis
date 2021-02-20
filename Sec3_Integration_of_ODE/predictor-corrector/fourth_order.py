@@ -1,6 +1,6 @@
 ##point to be estimated(p=i means we are finding w at t=ti)
 
-p = 4 
+p = 4
 ##Bounds of the independent variable##
 
 lower_bound = 0
