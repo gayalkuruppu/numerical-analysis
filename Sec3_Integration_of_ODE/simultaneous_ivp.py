@@ -170,9 +170,9 @@ while i<upper_bound:
         float("{:.10f}".format(u1_arr[-1] + (K3))),
         float("{:.10f}".format(u2_arr[-1] + (k3))))))
 
-    u1_func = "u1," + str(count) + str(u1_arr[-1]) + "(" + str(K1) + " + " + str(2*K2) + " + " + str(2*K3) + " + " + str(K4) + ")/6)"
+    u1_func = "u1," + str(count) + " = " + str(u1_arr[-1]) + " + (" + str(K1) + " + " + str(2*K2) + " + " + str(2*K3) + " + " + str(K4) + ")/6)"
 
-    u2_func = "u2," + str(count) + str(u2_arr[-1]) + "(" + str(k1) + " + " + str(2*k2) + " + " + str(2*k3) + " + " + str(k4) + ")/6)"
+    u2_func = "u2," + str(count) + " = " + str(u2_arr[-1]) + " + (" + str(k1) + " + " + str(2*k2) + " + " + str(2*k3) + " + " + str(k4) + ")/6)"
 
     u1_ans = "u1," + str(count) + " = " + "{:.10f}".format(u1_arr[-1] + ((K1+(2*K2)+(2*K3)+K4)/6))
     u2_ans = "u2," + str(count) + " = " + "{:.10f}".format(u2_arr[-1] + ((k1+(2*k2)+(2*k3)+k4)/6))
